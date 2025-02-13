@@ -36,3 +36,27 @@
     color: rgb(255, 0, 179);
     text-shadow: 1px 1px 1px black;
 }
+
+@media (min-width:335px) and (max-width: 500px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+    
+    .container-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cat{
+        width: 300px;
+    }
+
+    .container-pharase{
+        font-size: 1.9em;
+        text-align: center;
+    }
+}
